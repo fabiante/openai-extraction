@@ -1,0 +1,20 @@
+{
+  "name": "@dex/openai-extraction",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@cyber2024/pdf-parse-fixed": "^1.2.5",
+    "openai": "^3.2.1"
+  }
+}
